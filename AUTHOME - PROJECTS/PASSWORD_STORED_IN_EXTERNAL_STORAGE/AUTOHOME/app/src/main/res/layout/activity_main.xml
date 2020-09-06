@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:background="@color/backgrnd"
+    tools:context="com.example.autohome.MainActivity">
+    <!--
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO AUTOHOME"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:fontFamily="Verdana"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR PHONE INFO"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:text="MANUFACTURER"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/manuf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="200dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="50dp"
+        android:text="MODEL"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="200dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="50dp"
+        android:text="VERSION"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="200dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        />
+
+    <TextView
+        android:id="@+id/myTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="350dp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+    <!--
+    <Button
+        android:id="@+id/writeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="85dp"
+        android:text="WRITE"/>
+        -->
+    <!--
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="55dp"
+        android:textColor="@color/colorWhite"
+        android:text="MESSAGE"
+        android:textStyle="bold"/>
+    -->
+
+
+    <Button
+        android:id="@+id/selectRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="250dp"
+        android:text="SELECT ROOM"
+        android:textColor="#000000"
+        />
+</RelativeLayout>

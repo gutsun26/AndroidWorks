@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND SMS"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/dateTimeDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATE"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/numTxt"
+        android:hint="NUMBER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/msgTxt"
+        android:hint="MESSAGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="180dp"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="300dp"
+        android:text="SEND SMS"
+        />
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="250dp"
+        />
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="300dp"
+        />
+
+    <TextView
+        android:id="@+id/txtview"
+        android:text="test"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="350dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="5"
+        android:singleLine="false"
+        android:textSize="10sp"
+        />
+
+    <Button
+        android:id="@+id/del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEL"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="350dp"
+        />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GateControlEU</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title">Asia Schneider Gate Control App</string>
+    <string name="mesg">Acknowledgement</string>
+    <string name="ack">Send Acknowledgement</string>
+    <string name="ackOpened">Send ACK Opened</string>
+    <string name="ackClosed">Send ACK Closed</string>
+</resources>

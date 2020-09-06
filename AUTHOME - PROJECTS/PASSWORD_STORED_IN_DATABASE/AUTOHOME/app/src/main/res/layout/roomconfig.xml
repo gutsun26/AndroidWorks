@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:background="@color/backgrnd"
+    tools:context="com.example.autohome.GetRoomConfiguration">
+    <TextView
+        android:id="@+id/conStatMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="75dp"
+        android:text="CONNECTION STATUS"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="75dp"
+        android:text="GET THE SWITCH STATUS"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/getRoomConfig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:text="CLICK HERE"
+        android:textStyle="bold"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="serif-monospace" />
+    <TextView
+        android:id="@+id/configuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="75dp"
+        android:text="STATUS"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="75dp"
+        android:text="CLICK HERE TO CONTROL"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/enterRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+        android:text="AUTO_HOME"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@color/colorWhite"/>
+
+
+
+</RelativeLayout>

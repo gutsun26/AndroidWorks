@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.web.g_smsapp">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".admin_db.AdminShowNumbersLocationActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CreateUserActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".panel_builder.PanelBuilderActivityControl"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".customer.CustomerActivityControl"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ContactListActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".admin.AdminActivityControl"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".admin.AdminChangeNumbersActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="ccom.web.g_smsapp" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".admin.AdminInformationActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".admin_db.AdminShowReceivedSMSActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".customer_db.CustomerShowNumbersLocationActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".customer_db.CustomerShowReceivedSMSActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".customer.CustomerInformationActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".customer.CustomerChangeNumbersActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".customer.CustomerInformationImmediateActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".customer.CustomerRecordsDeleteActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".customer.CustomerSMSDeleteActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.g_smsapp"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

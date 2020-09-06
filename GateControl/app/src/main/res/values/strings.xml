@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GateControl</string>
+    <string name="title_home">Gates</string>
+    <string name="title_dashboard">Add Gates</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="scan">Scan</string>
+    <string name="click">Double Click to Scan QR Code</string>
+    <string name="gate_name">Enter Name of the Gate</string>
+    <string name="server">Server URI</string>
+    <string name="un">Username</string>
+    <string name="pwd">Password</string>
+    <string name="cnum">Enter your Cell Number</string>
+    <string name="cell">Cell Number</string>
+    <string name="randString">Random String</string>
+    <string name="appID">App ID</string>
+    <string name="del">Delete Table...</string>
+</resources>

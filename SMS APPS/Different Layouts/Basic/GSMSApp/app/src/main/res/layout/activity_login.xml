@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textUserID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USER ID:"
+        android:textStyle="bold"
+        android:layout_marginTop="155dp"/>
+    <EditText
+        android:id="@+id/editUserID"
+        android:layout_width="200dp"
+        android:background="@drawable/edit_text_border"
+        android:textColor="@color/DarkOrchid"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:layout_marginLeft="100dp"
+        android:hint="USER ID"
+        android:inputType="text"/>
+    <TextView
+        android:id="@+id/textPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD:"
+        android:textStyle="bold"
+        android:layout_below="@id/textUserID"
+        android:layout_marginTop="55dp"/>
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="200dp"
+        android:background="@drawable/edit_text_border"
+        android:textColor="@color/DarkOrchid"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/editUserID"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"/>
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="55dp"
+        android:layout_below="@id/editPassword"
+        android:text="Show password"
+        android:onClick="onCheckboxClicked"/>
+    <Button
+        android:id="@+id/loginBtn"
+        android:backgroundTint="@color/Peru"
+        android:textColor="@color/black"
+        android:background="@drawable/edit_text_border"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+        android:text="LOGIN"/>
+
+    <!--
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/loginBtn"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/goprann"/>
+    -->
+</RelativeLayout>

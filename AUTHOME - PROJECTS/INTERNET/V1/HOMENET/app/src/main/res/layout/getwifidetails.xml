@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    tools:context="com.web.autohomenet.wifirouter.GetRouterDetailsActivity">
+
+    <EditText
+        android:id="@+id/ssid"
+        android:hint="ROUTER NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:fontFamily="Verdana"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/pwd"
+        android:hint="ROUTER PASSWORD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="120dp"
+        android:fontFamily="Verdana"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/setButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="120dp"
+        android:fontFamily="Verdana"
+        android:textStyle="bold"
+        android:text="SET"
+        />
+
+</RelativeLayout>

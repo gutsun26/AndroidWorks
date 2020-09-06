@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:background="@color/backgrnd"
+    tools:context="com.example.autohome.TestReception">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO AUTOHOME"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:fontFamily="Verdana"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:text="RECEIVED: "
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/receivedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="200dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AUTOHOME</string>
+    <string name="Wifi_name">AUTO_HOME Settings...</string>
+    <string name="Wifi_pwd">Change WiFi Password</string>
+    <string name="Wifi_ID">WIFI NAME:</string>
+    <string name="Wifi_PWD">WIFI PASSWORD:</string>
+    <string name="Disconnect">AUTO_HOME Disconnect ...</string>
+    <string name="Reconnect">AUTO_HOME Reconnect...</string>
+    <string name="Character_Count">Count</string>
+</resources>

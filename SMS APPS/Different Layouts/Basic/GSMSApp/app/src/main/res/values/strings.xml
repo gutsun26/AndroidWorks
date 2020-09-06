@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">UdNi-SMS</string>
+    <string name="splash_text">GOPRAN</string>
+    <string name="Wifi_PWD">PASSWORD:</string>
+    <string name="Character_Count">Count</string>
+    <string name="Splash">AUTO_HOME</string>
+    <string name="discon">DISCONNECT AUTO_HOME</string>
+    <string name="setRoom">CONFIGURE ROOMS</string>
+    <string name="scanWifiAgain">SHOW NAME CHANGE</string>
+    <string name="changePassword">CHANGE PASSWORD</string>
+    <string name="changeSelfNumber">CHANGE SELF NUMBERS</string>
+    <string name="changeElevatorCompanyNumber">CHANGE ELEVATOR COMPANY NUMBERS</string>
+    <string name="changePanelBuilderNumber">PANEL BUILDER</string>
+    <string name="self">ADMIN</string>
+    <string name="builder">BUILDER</string>
+    <string name="company">CLIENT</string>
+    <string name="show">SHOW CLIENTS&#8230;</string>
+    <string name="sms">SHOW RECEIVED SMS&#8230;</string>
+    <string name="meaning">SHOW INFORMATION&#8230;</string>
+    <string name="deleteDate">DELETE DATE RECORD&#8230;</string>
+    <string name="deleteNumber">DELETE NUMBER RECORD&#8230;</string>
+    <string name="deleteRecords">DELETE RECORDS&#8230;</string>
+    <string name="deleteSMS">DELETE SMS</string>
+    <string name="deleteClient">DELETE CLIENT</string>
+    <string name="dash">----</string>
+    <string name="status">STATUS RECEIVED ON:</string>
+    <string name="centerAlignment">center</string>
+    <string name="calls">C</string>
+    <string name="nocalls">-</string>
+    <string name="big_double">===============</string>
+    <string name="table_title">TABLE TITLE</string>
+    <string name="liftErroStatusTable">LIFT ERROR STATUS</string>
+    <string name="empty">----</string>
+    <string name="user_profile_heading">UN SMS</string>
+    <string name="name_field">NAME</string>
+    <string name="company_field">COMPANY</string>
+    <string name="email_field">EMAIL</string>
+    <string name="phone_field_1">MOBILE #1</string>
+    <string name="phone_field_2">MOBILE #2</string>
+    <string name="whatsapp_no">WHATSAPP NUMBER</string>
+    <string name="address">ADDRESS</string>
+    <string name="done">DONE</string>
+</resources>

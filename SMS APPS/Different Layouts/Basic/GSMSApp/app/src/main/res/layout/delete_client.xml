@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer_db.CustomerShowNumbersLocationActivity">
+
+    <TextView
+        android:id="@+id/windowHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME OF THE CLIENT"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/listClients"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/windowHeading"
+        android:layout_marginTop="25dp"
+        android:layout_height="250dp"
+        android:layout_weight="0.97"
+        android:textColor="@color/black"
+        android:hint="CLIENT"
+        android:textStyle="bold"
+        android:inputType="text"/>
+    <Button
+        android:layout_marginTop="25dp"
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listClients"
+        android:textStyle="bold"
+        android:text="@string/deleteClient"/>
+
+</RelativeLayout>

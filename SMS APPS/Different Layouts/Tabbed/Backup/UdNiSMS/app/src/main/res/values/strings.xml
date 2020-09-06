@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UdNi-SMS</string>
+    <string name="tab_text_1">Login</string>
+    <string name="tab_text_2">Client List</string>
+    <string name="tab_text_3">Log</string>
+    <string name="tab_text_4">Delete Records</string>
+    <string name="tab_text_5">Tab 5</string>
+    <string name="userID_text">USER ID</string>
+    <string name="userPWD_text">PASSWORD</string>
+    <string name="frag1">Fragment 1</string>
+    <string name="frag2">Fragment 2</string>
+    <string name="splash_text">GOPRAN</string>
+    <string name="switch_text">SWITCH</string>
+</resources>

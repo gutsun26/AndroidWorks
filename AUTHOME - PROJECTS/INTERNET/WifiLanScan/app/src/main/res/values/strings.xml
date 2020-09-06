@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WifiLanScan</string>
+    <string name="Wifi_PWD">PASSWORD:</string>
+    <string name="Character_Count">Count</string>
+    <string name="Splash">AUTO_HOME</string>
+    <string name="discon">DISCONNECT AUTO_HOME</string>
+    <string name="setRoom">CONFIGURE ROOMS</string>
+    <string name="showNames">SHOW NAME CHANGE</string>
+    <string name="show">SHOW DATABASE</string>
+    <string name="changePassword">CHANGE PASSWORD</string>
+</resources>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/connect"
+        android:title="@string/connect">
+    </item>
+    <item
+        android:id="@+id/connectTo"
+        android:title="Connect to..."/>
+    <item
+        android:id="@+id/disconnect"
+        android:title="@string/disconnect"/>
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"/>
+</menu>

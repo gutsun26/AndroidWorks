@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4555b9</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPeach">#fe948d</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="backgrnd">#006064</color>
+    <color name="a">#beedcd</color>
+    <color name="b">#ffb8a7</color>
+    <color name="c">#e0eb1c</color>
+    <color name="d">#b723a5</color>
+    <color name="e">#f3c238</color>
+    <color name="f">#e90041</color>
+    <color name="g">#f9144c</color>
+    <color name="h">#59b6eb</color>
+    <color name="i">#beedcd</color>
+    <color name="j">#ecbf1b</color>
+    <color name="k">#ffb8a7</color>
+    <color name="l">#42733b</color>
+    <color name="m">#2b2a6f</color>
+    <color name="n">#f05c15</color>
+    <color name="o">#e91812</color>
+    <color name="p">#e0eb1c</color>
+    <color name="q">#59b6eb</color>
+    <!--
+    <color name="r">#006064</color>
+    <color name="s">#006064</color>
+    <color name="t">#006064</color>
+    <color name="u">#006064</color>
+    <color name="v">#006064</color>
+    <color name="w">#006064</color>
+    <color name="x">#006064</color>
+    <color name="y">#006064</color>
+    <color name="z">#006064</color>
+    -->
+</resources>

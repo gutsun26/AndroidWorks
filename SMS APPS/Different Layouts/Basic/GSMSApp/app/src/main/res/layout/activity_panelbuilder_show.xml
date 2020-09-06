@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:scrollbars="vertical"
+    tools:context=".panel_builder_db.PanelBuilderShowReceivedSMSActivity">
+    <LinearLayout
+        android:id="@+id/linLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RECEIVED SMS"
+            android:textStyle="bold"/>
+        <ListView
+            android:layout_marginTop="25dp"
+            android:id="@+id/lstvw"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_weight="0.97" />
+    </LinearLayout>
+</ScrollView>

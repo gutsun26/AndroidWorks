@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.web.udni_sms">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateUserActivity"
+            android:windowSoftInputMode="stateVisible"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="stateVisible"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity1"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity3"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.DarkActionBar"
+            android:name=".SendSMSActivity1"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.DarkActionBar"
+            android:name=".SendSMSActivity2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@style/AppTheme.DarkActionBar"
+            android:name=".SendSMSActivity3"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@style/AppTheme.DarkActionBar"
+            android:name=".EditSiteInformationActivity1"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@style/AppTheme.DarkActionBar"
+            android:name=".EditSiteInformationActivity2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@style/AppTheme.DarkActionBar"
+            android:name=".EditSiteInformationActivity3"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@style/AppTheme.DarkActionBar"
+            android:name=".AddSiteActivity1"
+            android:windowSoftInputMode="stateVisible"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@style/AppTheme.DarkActionBar"
+            android:name=".AddSiteActivity2"
+            android:windowSoftInputMode="stateVisible"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@style/AppTheme.DarkActionBar"
+            android:name=".AddSiteActivity3"
+            android:windowSoftInputMode="stateVisible"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@style/AppTheme.DarkActionBar"
+            android:name=".ChangeNumbersActivity1"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@style/AppTheme.DarkActionBar"
+            android:name=".ChangeNumbersActivity2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@style/AppTheme.DarkActionBar"
+            android:name=".ChangeNumbersActivity3"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DeleteSiteActivityFrag1"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DeleteSiteActivityFrag2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DeleteSiteActivityFrag3"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DeleteSiteActivity1"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DeleteSiteActivity2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DeleteSiteActivity3"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".admin_db.AdminInformationImmediateActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".InfoGopranActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".InfoSitesActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".InfoSMSActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".InfoSettingsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.web.udni_sms" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

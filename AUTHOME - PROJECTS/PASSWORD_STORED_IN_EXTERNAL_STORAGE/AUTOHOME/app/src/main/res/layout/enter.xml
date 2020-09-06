@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:background="@color/backgrnd"
+    tools:context="com.example.autohome.EnterAutoHome">
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO AUTOHOME"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:fontFamily="Verdana"
+        android:background="@color/colorPrimary"
+        android:textColor="#f1f9f9"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="75dp"
+        android:text="YOUR PHONE IS CONNECTED TO"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="75dp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="75dp"
+        android:text="CONNECT THE APP TO AUTO_HOME"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/gopran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTOHOME"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+
+</RelativeLayout>

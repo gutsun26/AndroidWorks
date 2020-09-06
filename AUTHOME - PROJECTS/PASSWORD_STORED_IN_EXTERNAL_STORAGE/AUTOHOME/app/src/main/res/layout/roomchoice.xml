@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:background="@color/backgrnd"
+    tools:context="com.example.autohome.RoomChoice">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT ROOM"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="120dp"
+        android:fontFamily="Verdana"
+        android:theme="@style/AppTheme"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        />
+    <RadioButton
+        android:id="@+id/livingRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIVING ROOM"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:width="150dp"
+        />
+    <RadioButton
+        android:id="@+id/bedRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BED ROOM"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:width="150dp"
+        />
+</RelativeLayout>

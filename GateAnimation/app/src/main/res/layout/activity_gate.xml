@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+    <TextView
+        android:id="@+id/gateName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_marginTop="45dp"
+        android:id="@+id/imgvw"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/gate"/>
+    <Button
+        android:id="@+id/btnSlideLeft"
+        android:layout_below="@+id/imgvw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide Left"
+        android:layout_marginLeft="100dp" />
+    <Button
+        android:id="@+id/btnSlideRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnSlideLeft"
+        android:layout_toRightOf="@+id/btnSlideLeft"
+        android:text="Slide Right" />
+</RelativeLayout>

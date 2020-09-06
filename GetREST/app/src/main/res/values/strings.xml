@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GetREST</string>
+    <string name="deviceID">Device ID (1 or 2)</string>
+    <string name="dev1">Device 1</string>
+</resources>

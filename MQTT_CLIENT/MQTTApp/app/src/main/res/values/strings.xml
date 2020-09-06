@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GateControl</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title">Asia Schneider Gate Control App</string>
+    <string name="mesg">Acknowledgement</string>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GISMSApp</string>
+    <string name="splash_text">GOPRAN</string>
+    <string name="Wifi_PWD">PASSWORD:</string>
+    <string name="Character_Count">Count</string>
+    <string name="Splash">AUTO_HOME</string>
+    <string name="discon">DISCONNECT AUTO_HOME</string>
+    <string name="setRoom">CONFIGURE ROOMS</string>
+    <string name="scanWifiAgain">SHOW NAME CHANGE</string>
+    <string name="changePassword">CHANGE PASSWORD</string>
+    <string name="changeSelfNumber">CHANGE SELF NUMBERS</string>
+    <string name="changeElevatorCompanyNumber">CHANGE ELEVATOR COMPANY NUMBERS</string>
+    <string name="changePanelBuilderNumber">PANEL BUILDER</string>
+    <string name="self">ADMIN</string>
+    <string name="builder">BUILDER</string>
+    <string name="company">CLIENT</string>
+    <string name="show">SHOW CLIENTS...</string>
+    <string name="sms">SHOW RECEIVED SMS...</string>
+    <string name="meaning">SHOW INFORMATION...</string>
+    <string name="deleteDate">DELETE DATE RECORD...</string>
+    <string name="deleteNumber">DELETE NUMBER RECORD...</string>
+    <string name="deleteRecords">DELETE RECORDS...</string>
+    <string name="deleteSMS">DELETE SMS</string>
+    <string name="dash">----</string>
+    <string name="status">STATUS RECEIVED ON:</string>
+    <string name="centerAlignment">center</string>
+    <string name="calls">C</string>
+    <string name="nocalls">-</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AUTOHOME</string>
+    <string name="Wifi_name">Change WIFI Name...</string>
+    <string name="Wifi_pwd">Change WiFi Password</string>
+    <string name="Wifi_ID">WIFI NAME:</string>
+    <string name="Wifi_PWD">WIFI PASSWORD:</string>
+    <string name="Disconnect">AUTO_HOME Disconnect ...</string>
+    <string name="Reconnect">AUTO_HOME Reconnect...</string>
+    <string name="Character_Count">Count</string>
+    <string name="Reset">AUTO_HOME Reset...</string>
+    <string name="Splash">AUTO_HOME</string>
+    <string name="discon">Disconnect AUTO_HOME</string>
+    <string name="disconall">Disconnect From All</string>
+    <string name="refresh">Scan Wifi...</string>
+    <string name="store">Store SSID and PWD</string>
+    <string name="show">App Compatible WiFis...</string>
+    <string name="forget">Forget AUTO_HOME...</string>
+</resources>
